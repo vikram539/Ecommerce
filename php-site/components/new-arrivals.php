@@ -15,7 +15,7 @@
                     <?php 
                         $productSel = commonSelect_table($conn, "product_table", "id^cat_id^pro_name^pro_MRP^pro_price^pro_qty^pro_img^pro_short_desc^pro_desc^sku^weight^status", "WHERE status='1' ORDER BY id DESC LIMIT 4");
                        
-                        $numRows = mysqli_num_rows($productSel);
+                        $numRows = mysqli_num_rows($productSel);  
                         if($numRows > 0){
                             while($productFetch = mysqli_fetch_assoc($productSel)){
                                 $pro_id = $productFetch['id'];
@@ -33,7 +33,7 @@
                                     <img src="images/product/<?=$cat_id."/".$pro_img?>" alt="product images">
                                 </a>
                             </div>
-                            <div class="fr__hover__info">
+                            <!-- <div class="fr__hover__info">
                                 <ul class="product__action">
                                     <li><a href="wishlist.html"><i class="icon-heart icons"></i></a></li>
 
@@ -41,7 +41,7 @@
 
                                     <li><a href="#"><i class="icon-shuffle icons"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <div class="fr__product__inner">
                                 <h4><a href="product-details.php"><?=$pro_name?></a></h4>
                                 <ul class="fr__pro__prize">

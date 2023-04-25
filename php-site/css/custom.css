@@ -4,35 +4,76 @@
   Description: Asbab is a unique website template designed in HTML with a simple & beautiful look.
 
 ---------------------------------------------------------------*/
-
 /* ----------------------------------------------------
 	You can put your custom css code here: 
 -------------------------------------------------------*/
-.menumenu__container{
+.menumenu__container {
   display: flex;
   align-items: center;
 }
-.mainmenu__wrap{
+
+.mainmenu__wrap {
   background: #002855;
 }
-.logo{
-    position: absolute;
-    top: 12px;
-    min-width: 203px;
+
+.logo {
+  position: absolute;
+  top: 12px;
+  min-width: 203px;
 }
-.logo>a{
+
+.logo > a {
   background: #002855;
 }
-.scroll-header .logo{
+
+.scroll-header .logo {
   position: relative;
   min-width: 20px;
   width: 80px;
   height: 80px;
   top: 0;
 }
-.main__menu> li > a{
+
+.main__menu > li > a {
   color: #fff;
 }
-.header__search a i, .header__account a, .htc__shopping__cart a i{
+
+.header__search a i, .header__account a, .htc__shopping__cart a i {
   color: #fff;
 }
+
+/* slider */
+.slider__container.bg__cat--3 {
+  background-color: #eec288;
+}
+
+/* Services */
+.services-container {
+  box-shadow: 2px 2px 5px #002855;
+  padding: 1rem 0;
+}
+
+.services-items-outlet {
+  width: 100%;
+}
+.services-items-outlet ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.services-items-outlet ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services-items-outlet ul li i {
+  font-size: 3rem;
+  color: #ff900e;
+}
+.services-items-outlet ul li span {
+  color: #002855;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=custom.css.map */

@@ -8,7 +8,7 @@
 		else{
 			$url="http";
 		}
-		$url.="://".$_SERVER['HTTP_HOST']."/php-site/";
+		$url.="://".$_SERVER['HTTP_HOST']."/naveen/Ecommerce/php-site/";
 		return $url;  
     }	 
     // mysqli real escape string

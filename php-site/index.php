@@ -26,6 +26,10 @@
             <?php include("components/header-slider.php"); ?>
         <!-- Start Slider Area -->
 
+        <!-- Start Services Area -->
+            <?php include("components/services.php"); ?>
+        <!-- End Services Area -->
+
         <!-- Start Category Area -->
             <?php include("components/new-arrivals.php"); ?>
         <!-- End Category Area -->

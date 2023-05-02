@@ -44,11 +44,14 @@
                             </div> -->
                             <div class="fr__product__inner">
                                 <h4><a href="product-details.php"><?=$pro_name?></a></h4>
+                                <hr>
                                 <ul class="fr__pro__prize">
                                     <li class="old__prize">$<?=$pro_MRP?></li>
-                                    <li>$<?=$pro_price?></li>
+                                    <li><del><small>$<?=$pro_price?></small></del></li>
                                 </ul>
-                                <p><?=$pro_short_desc?></p>
+                                <div class="product_btn">
+                                    <a href="">quick shop</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -59,6 +62,18 @@
                     <!-- End Single Category -->
                     
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="grooming-img">
+        <img src="images/grooming.jpg" alt="grooming" />
+        <div class="groom-text">
+            <div class="groom-typography">
+                <h2>Grooming</h2>
+                <h3>Styling from head to paw for furry family members</h3>
             </div>
         </div>
     </div>
